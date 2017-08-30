@@ -4,4 +4,6 @@ def collatz(number):
             number = number // 2
         else:
             number = 3 * number + 1
-        print(number)
+        print("Da number is" + str(number))
+    if number == 1:
+        print("Da number is" + str(number))
